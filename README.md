@@ -47,4 +47,4 @@ CREATE TABLE subscribers (
 );
 Access the Project:
 
-Open a browser and navigate to http://localhost/<project-folder>.
+Open a browser and navigate to (http://localhost/<project-folde>)
