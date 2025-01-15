@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar with Image</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/7d6e43691a.js" crossorigin="anonymous"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="header-image">
+    <img src="slogo.png" alt="Header Logo or Banner">
+    
+  </div>
+  <hr width="100%" size="2">
+  <nav>
+    <div class="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#">Events</a></li>
+      <li><a href="#">Career</a></li>
+      <li><a href="#card-container">Salesforce News</a></li>
+      <li><a href="#blogs-container">Articles</a></li>
+ <form class="search-form" action="#" method="get">
+        <input type="text" placeholder="Search..." name="search">
+        <button type="submit"><i class="fas fa-search"></i></button>
+      </form>
+    </ul>
+  </nav>
+  <hr width="100%" size="2">
+  <main class="responsive-wrapper">
+    <div class="page-title">
+      <h1>Blogs</h1>
+    </div>
+    <div class="magazine-layout">
+      <div class="magazine-column">
+        <article class="article">
+          <h2 class="article-title article-title--large">
+            <a href="#" class="article-link">The First Signs of <mark class="mark mark--primary">Alcoholic Liver</mark> Damage Are Not in the Liver</a>
+          </h2>
+          <div class="article-excerpt">
+            <p>The combination of my father's death and my personal back ground lit a fire in me to know more</p>
+            <p>He was admitted to the hospital on June 24, 2016.
+          </div>
+          <div class="article-author">
+            <!-- <div class="article-author-img">
+              <img src="https://www.salesforceben.com/wp-content/uploads/2025/01/How-to-Avoid-Bad-Salesforce-Partners-The-Three-Question-Test.png" />
+            </div> -->
+            <div class="article-author-info">
+              <dl>
+                <dt> - David Sherof</dt>
+                <dd>Reporter</dd>
+              </dl>
+            </div>
+          </div>
+        </article>
+        <article class="article">
+          <h2 class="article-title article-title--medium">
+            <a href="#" class="article-link">The Founder's Guide to Actually Understanding Users Nowadays</a>
+          </h2>
+          <div class="article-creditation">
+            <p> -  Johnathan O'Connell, Andrew Van Dam, Aaron Gregg and Alyssa Fowers</p>
+          </div>
+        </article>
+      </div>
+      <div class="magazine-column">
+        <article class="article">
+          <figure class="article-img">
+            <img src="https://www.salesforceben.com/wp-content/uploads/2025/01/How-to-Avoid-Bad-Salesforce-Partners-The-Three-Question-Test.png" />
+          </figure>
+          <h2 class="article-title article-title--medium">
+            <a href="#" class="article-link">How 7 Lines of Code Turned Into a $36 Billion Empire</a>
+          </h2>
+          <div class="article-excerpt">
+            <p>Yeah, it's safe to say these guys have a great sense of humor, which isn't really suprising for us considering their seemingly absurd solution to online payments. Instead of chasing 1000-hour programming contracts to build clunky payments solutions for each individual client, the Collison...</p>
+          </div>
+          <div class="article-author">
+            <!-- <div class="article-author-img">
+              <img src="https://www.salesforceben.com/wp-content/uploads/2025/01/How-to-Avoid-Bad-Salesforce-Partners-The-Three-Question-Test.png" />
+            </div> -->
+            <div class="article-author-info">
+              <dl>
+                <dt> - James Robert</dt>
+                <dd>Editor</dd>
+              </dl>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class="magazine-column">
+        <article class="article">
+          <figure class="article-img">
+            <img src="https://www.salesforceben.com/wp-content/uploads/2022/09/How-to-Create-Salesforce-Custom-Report-Types-Examples-1024x576.png" />
+          </figure>
+          <h2 class="article-title article-title--small">
+            <a href="#" class="article-link">To Become <mark class="mark mark--secondary">Happier</mark>, Ask Yourself These Two Questions Every Night</a>
+          </h2>
+          <div class="article-creditation">
+            <p> - Jonathan O'Connell</p>
+          </div>
+        </article>
+        <article class="article">
+          <figure class="article-img">
+            <img src="https://www.salesforceben.com/wp-content/uploads/2025/01/The-Power-of-Two-Creating-Hybrid-Automations-with-Apex-and-Flow-1024x576.png" />
+          </figure>
+          <h2 class="article-title article-title--small">
+            <a href="#" class="article-link">10 Things I Stole From People Smarter Than Me</a>
+          </h2>
+          <div class="article-creditation">
+            <p>By Jonathan O'Connell</p>
+          </div>
+        </article>
+      </div>
+      <div class="magazine-column">
+        <article class="article">
+          <h2 class="article-title article-title--medium">
+            <a href="#" class="article-link">Traveller Visiting Ice Cave With Amazing Eye-Catching Scenes</a>
+          </h2>
+          <div class="article-excerpt">
+            <p>Slack has become indispensible for many businesses operation remotely during the pandemic. Here's what the acquisition could mean for users...</p>
+          </div>
+          <div class="article-author">
+            <!-- <div class="article-author-img">
+              <img src="https://www.salesforceben.com/wp-content/uploads/2025/01/How-to-Avoid-Bad-Salesforce-Partners-The-Three-Question-Test.png" />
+            </div> -->
+            <div class="article-author-info">
+              <dl>
+                <dt> - James Robert</dt>
+                <dd>Editor</dd>
+              </dl>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </main>
+  <hr width="100%" size="2">
+  <!-- buttons -->
+  <div class="button-group">
+    <button id="latest-btn" class="switch-button">Latest</button>
+    <button id="editors-picks-btn" class="switch-button">Editor's Picks</button>
+    <button id="popular-btn" class="switch-button">Popular</button>
+  </div>
+   <!-- cards
+        <div class="container">
+        <div class="content-grid">
+          <div class="card">
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/Iiei1qiJcAI?si=eMMJeat0RHXvPISH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <div class="card-content">
+                  <h2 class="card-title">The Great Salesforce Market</h2>
+                  <p class="card-description">The Great Salesforce Market.</p>
+              </div>
+          </div>
+
+          <div class="card">
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/uh4e1yppnfg?si=GHvs4E9oxjG8Khgz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              <div class="card-content">
+                  <h2 class="card-title">SAlesforce Certification</h2>
+                  <p class="card-description">SAlesforce Certification</p>
+              </div>
+          </div>
+
+          <div class="card">
+              <img src="blog3.png" alt="">
+              <div class="card-content">
+                  <h2 class="card-title">What Worked for You This Year?</h2>
+                  <p class="card-description">An open thread to share insights.</p>
+              </div>
+          </div>
+
+          <div class="card">
+              <img src="blog4.png" alt="">
+              <div class="card-content">
+                  <h2 class="card-title">Another Year on the Notebooks</h2>
+                  <p class="card-description">Last Friday newsletter of 2024.</p>
+              </div>
+          </div>
+
+          <div class="card">
+              <img src="blog3.png" alt="">
+              <div class="card-content">
+                  <h2 class="card-title">Season's Greetings from Austin</h2>
+                  <p class="card-description">"Ain't it good to be alive."</p>
+              </div>
+          </div>
+          <div class="card">
+            <img src="blog2.png" alt="">
+            <div class="card-content">
+                <h2 class="card-title">Season's Greetings from Austin</h2>
+                <p class="card-description">"Ain't it good to be alive."</p>
+            </div>
+        </div>
+        <div class="card">
+          <img src="blog1.png" alt="">
+          <div class="card-content">
+              <h2 class="card-title">Season's Greetings from Austin</h2>
+              <p class="card-description">"Ain't it good to be alive."</p>
+          </div>
+      </div>
+      <div class="card">
+          <img src="blog1.png" alt="">
+          <div class="card-content">
+              <h2 class="card-title">Season's Greetings from Austin</h2>
+              <p class="card-description">"Ain't it good to be alive."</p>
+          </div>
+      </div>
+      </div> -->
+      <div id="card-container" class="content-grid">
+      <!-- contnt appears here  -->
+      </div>
+    <hr width="100%" size="2">
+    <div class="container">
+      <h1>Fetch Multiple Blog Posts</h1>
+        <button id="fetchBlogsBtn" class="switch-button">Fetch New Blogs</button>
+        <button id="read-content" class="switch-button">Read Content</button>
+        <button id="stop-reading" class="switch-button">Stop Reading</button>
+        
+
+        <div id="blogs-container" class="blogs-container">
+            <!-- New blogs will be displayed here -->
+        </div>
+    </div>
+  <hr width="100%" size="2">
+  <div class="subscription-form-container">
+    <h1>Subscribe to our Newsletter</h1>
+    <form id="subscription-form">
+        <input type="email" id="email" name="email" placeholder="Enter your email" required />
+        <button class="switch-button" type="submit">Subscribe</button>
+    </form>
+    <div id="response-message"></div>
+</div>
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-logo">
+      <img src="slogo.png" alt="Footer Logo" />
+    </div>
+    <div class="footer-links">
+      <ul>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-socials">
+      <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 Sibin Saji. All rights reserved.</p>
+  </div>
+</footer>
+  
+</body>
+</html>
