@@ -30,3 +30,21 @@ This project is a responsive web application developed as part of a Full Stack I
 
 ---
 
+
+Set Up XAMPP Server:
+
+Place the project folder in htdocs.
+Start Apache and MySQL in XAMPP.
+Create a Database:
+
+Open phpMyAdmin and create a database named newsletter.
+Import the SQL file (if any) or manually create a table:
+sql
+Copy code
+CREATE TABLE subscribers (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    email VARCHAR(255) NOT NULL
+);
+Access the Project:
+
+Open a browser and navigate to http://localhost/<project-folder>.
